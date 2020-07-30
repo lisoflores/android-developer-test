@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Android Developer Test</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="add_entry">Registrar entrada</string>
+    <string name="add_leave">Registrar salida</string>
+    <string name="add_vehicle">Agregar vehiculo</string>
+    <string name="vehicles">Vehiculos</string>
+    <string name="start_month">Iniciar mes</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_vehicles">Vehiculos</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="active_records">Registros activos</string>
+    <string name="car_number">Matricula</string>
+    <string name="is_official_vehicle">Es vehiculo oficial</string>
+    <string name="official_vehicle">Vehiculo oficial</string>
+    <string name="save">Guardar</string>
+    <string name="save_entry">Guardar Entrada</string>
+    <string name="empty_vehicle_id_error">Por favor ingrese el número de matricula del vehiculo</string>
+    <string name="vehicule_saved_sucess">Vehiculo guardado con exito</string>
+    <string name="record_leave">Marcar salida</string>
+    <string name="record_leave_confirmation">Deseas marcar salida de este vehiculo?</string>
+    <string name="start_month_confirmation_message">Deseas limpiar registros e iniciar mes?</string>
+    <string name="entry_with_time">Entrada: %1$s</string>
+    <string name="leave_with_time">Salida: %1$s</string>
+    <string name="payment_no_required">Pago no requerido</string>
+    <string name="payment_no_required_is_official">Vehiculo oficial registrado, no se requiere pago</string>
+    <string name="payment_no_required_at_this_time">Pago no requerido en este momento</string>
+    <string name="payment_no_required_is_resident">Vehiculo registrado, se enviará cobro a fin de mes</string>
+    <string name="charge_with_value">Cobrar: %1$s</string>
+    <string name="time_stay">Tiempo de estancia: %1$s</string>
+    <string name="report">Reporte</string>
+    <string name="balance">Saldo</string>
+    <string name="time">Tiempo</string>
+    <string name="clear_and_start_month">Limpiar e iniciar mes</string>
+    <string name="pick_vehicle_type">Selecciona tipo de vehiculo</string>
+    <string name="vehicle_type">Tipo de vehiclo</string>
+</resources>

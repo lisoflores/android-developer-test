@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.lisandrolopez.androiddevelopertest.ui.home.HomeFragment"
+        android:label="@string/active_records"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_newRecordFragment"
+            app:destination="@id/newRecordFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_vehicles"
+        android:name="com.lisandrolopez.androiddevelopertest.ui.vehicles.VehiclesFragment"
+        android:label="@string/vehicles"
+        tools:layout="@layout/fragment_vehicles">
+        <action
+            android:id="@+id/action_navigation_notifications_to_createVehicleFragment"
+            app:destination="@id/createVehicleFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/createVehicleFragment"
+        android:name="com.lisandrolopez.androiddevelopertest.ui.addvehicle.CreateVehicleFragment"
+        android:label="@string/add_vehicle" />
+    <fragment
+        android:id="@+id/newRecordFragment"
+        android:name="com.lisandrolopez.androiddevelopertest.ui.newrecord.NewRecordFragment"
+        android:label="@string/add_entry" />
+
+    <fragment
+        android:id="@+id/navigation_report"
+        android:name="com.lisandrolopez.androiddevelopertest.ui.report.ReportFragment"
+        android:label="@string/report" />
+</navigation>
